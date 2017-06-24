@@ -1,0 +1,120 @@
+body{
+    background-color: darkgreen;
+    background-image: url("images/Background.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    position: absolute;
+    z-index: -5;
+    height: 100%; width: 100%;
+    /* Make unselectable: */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#overlay{
+    background-color: rgba(0,0,0,0,8);
+    top: 0px; left: 0px;
+    position: absolute;
+    z-index: -1;
+    width: 100vw; height: 100vh;
+}
+
+#startScreen{
+    position: absolute;
+    width: 70vw; height: 70vh;
+    z-index: 3;
+    top: 15vh; left: 15vw;
+    background-image: url("images/Background.png");
+    text-align: center;
+    color: darkgreen;
+}
+
+#button{
+    width: 200px; height: 40px;
+    background-color: green;
+    border: 2px solid darkgreen;
+    border-radius:  20px;
+    outline: none;
+    color: skyblue;
+}
+
+#slime{
+    background-image: url("images/Slime.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px; height: 250px;
+    z-index: 1;
+    left: 44vw;
+    top: 38vh;
+    position: absolute;
+}
+#orc{
+    background-image: url("images/Orc.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px; height: 400px;
+    z-index: 1;
+    left: 36vw;
+    top: 30vh;
+    position: absolute;
+}
+#dragon{
+    background-image: url("images/Dragon.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 800px; height: 800px;
+    z-index: 1;
+    left: 30vw;
+    top: 1vh;
+    position: absolute;
+}
+
+#health{
+    color: red;
+    margin: 150px auto 0 auto;
+}
+
+#damage{
+    color: darkred;
+    margin: 30px auto 0 auto;
+}
+
+#gold{
+    color: gold;
+    margin: 30px auto 0 auto;
+}
+
+#goldsec{
+    color: darkgoldenrod;
+    margin: 20px auto 0 auto;
+}
+
+#weaponmenu{
+    width: 250px;
+    height:  100vh;
+    background-color: darkgreen;
+    z-index: -1;
+    border-right: 2px brown;
+
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#WeaponList{
+    list-style: none;
+    margin-top: 30 px;
+}
+
+#IncomeList{
+    list-style: none;
+    margin-top: 30 px;
+}
