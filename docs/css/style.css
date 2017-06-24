@@ -55,7 +55,7 @@ body{
     position: absolute;
 }
 #orc{
-    background-image: url("images/Orc.gif");
+    background-image: url("images/orc.gif");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -66,7 +66,7 @@ body{
     position: absolute;
 }
 #dragon{
-    background-image: url("images/Dragon.gif");
+    background-image: url("images/dragon.gif");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
