@@ -1,6 +1,7 @@
 <h1># PRG-4-Inleveropdracht</h1>
 Mijn Game voor de PRG-4 programmeer opdracht
 Hero Trainer, een miniatuur adventure clicker game.
+De game is hier te spelen: https://conanspithoven.github.io/PRG-4-Inleveropdracht/.
 
 <h2>How to install</h2>
 Download all the files and place these inside your website folder.
