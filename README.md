@@ -21,3 +21,11 @@ ik heb gebruik gemaakt van encapsulation doormiddel van privates, publics en pro
 
 <h2>Inheritance</h2>
 mijn overerving is te zien in items.ts, hierin erven mijn koopbare objecten de activateWeapon en activateIncome functies over van de Item class.
+
+<h2>Feedback</h2>
+Ik heb feedback gegeven over de game van Gert Gieling.
+
+De feedback van mijzelf, Haris en Gert is op de volgende manier ingedeeld:
+Conan geeft Gert feedback.
+Gert geeft Haris feedback.
+Haris geeft Conan feedback.
