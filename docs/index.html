@@ -6,6 +6,24 @@
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '155014085064464',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.10&appId=155014085064464";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
         <div id = "weaponmenu"></div>
         <div id = "health"></div>
         <div id = "damage"></div>
@@ -15,6 +33,9 @@
                 <a class="twitter-share-button"
                 href="https://twitter.com/intent/tweet?text=I'm%20playing%20hero%20trainer,%20think%20you%20can%20beat%20my%20score?">
                 Tweet your Stats</a>
+        </div>
+        <div class="fb-share-button" data-href="https://conanspithoven.github.io/PRG-4-Inleveropdracht/" data-layout="button" data-size="small" data-mobile-iframe="true">
+        <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconanspithoven.github.io%2FPRG-4-Inleveropdracht%2F&amp;src=sdkpreparse">share</a>
         </div>
 <aq></aq>
 
